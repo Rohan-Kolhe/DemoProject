@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage extends BaseTest {
-	
+	//WebDriver wait
 	WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(30));
 	
 	public WebElement waitForElementToBeVisible(WebElement selector) {
